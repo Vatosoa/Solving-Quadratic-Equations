@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résolution d'équation de second degré</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Résolution d'équation de second degré</h3>
+        <div class="input-group">
+            <label for="a">A</label>
+            <input type="number" id="a" step="any">
+        </div>
+        <div class="input-group">
+            <label for="b">B</label>
+            <input type="number" id="b" step="any">
+        </div>
+        <div class="input-group">
+            <label for="c">C</label>
+            <input type="number" id="c" step="any">
+        </div>
+        <button onclick="resolveEquation()">Résoudre</button>
+        <br><br><br>
+        <div id="result"></div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

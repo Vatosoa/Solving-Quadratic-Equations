@@ -1,0 +1,50 @@
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    background-color: rgba(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    box-shadow: 4px 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.input-group {
+    margin: 10px 0;
+}
+
+input {
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input-group input{
+    border: 1px solid rgb(0, 0, 0, 1);
+    color: rgb(0, 0, 0, 1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 1px 2px grey; */
+}
+
+button:hover {
+    background-color: rgb(238, 238, 212);
+}
+
